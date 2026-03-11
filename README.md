@@ -262,36 +262,15 @@ Attributes:
 - 分辨率: 4km
 - NoData值: -9999
 
-## 后续开发计划
+## 后续开发目标
+1.  实现基本反演算法
+2.  集成到完整工作流
+3.  优化计算性能
 
-### 短期目标
-1. ✅ 实现基本反演算法
-2. ⏳ 集成到完整工作流
-3. ⏳ 添加更多气溶胶类型
-4. ⏳ 优化计算性能
-
-### 中期目标
-1. ⏳ 实现多角度反演
-2. ⏳ 添加气溶胶类型识别
-3. ⏳ 开发Web可视化界面
-4. ⏳ 集成到业务系统
-
-### 长期目标
-1. ⏳ 深度学习辅助反演
-2. ⏳ 多卫星数据融合
-3. ⏳ 实时反演系统
-4. ⏳ 气候应用研究
-
-## 参考文献
-
-1. Levy, R. C., et al. (2013). The Dark Target algorithm for MODIS.
-2. Kaufman, Y. J., et al. (1997). The MODIS 2.1-μm channel for aerosol retrieval.
-3. Vermote, E. F., et al. (1997). Second Simulation of the Satellite Signal in the Solar Spectrum (6S).
-4. FY4B/AGRI ATBD - 中国气象局技术文档
 
 ## 联系方式
 如有问题或建议，请联系项目维护者。
 
 ---
-*最后更新: 2025年3月10日*
+*最后更新: 2026年3月10日*
 *版本: 1.0*
