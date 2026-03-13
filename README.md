@@ -36,21 +36,21 @@
 ### 步骤1: 环境准备
 ```bash
 # 安装依赖
-pip install numpy pandas matplotlib scipy h5py xarray rasterio
+pip install numpy pandas matplotlib scipy h5py xarray rasterio py6s
 # 安装Py6S (用于生成LUT)
 # 注意: Py6S安装较复杂，可能需要从源码编译
 ```
 
 ### 步骤2: 生成查找表
 ```python
-# 运行查找表生成程序
+# 找个服务器运行查找表生成程序
 python generate_lut_server.py
-# 输出: FY4B_AGRI_LUT_Server_YYYYMMDD_HHMM.h5
+# 输出: FY4B_AGRI_LUT_Server.h5
 ```
 
-### 步骤3: 数据预处理
+### 步骤3: 数据预处理（主要是筛像元）
 ```python
-# 在Jupyter中运行 fy4b_dt_preprocessor.ipynb
+# 运行 fy4b_dt_preprocessor.ipynb
 # 或导入相关函数
 from fy4b_dt_preprocessor import (
     load_nav_and_mask,
@@ -168,7 +168,7 @@ output.save_to_geotiff(
    - 迭代收敛性检查
    - 异常值过滤
 
-## 验证方法
+## 可行的验证方法
 
 ### 1. 与AERONET站点对比
 ```python
@@ -269,8 +269,8 @@ Attributes:
 
 
 ## 联系方式
-如有问题或建议，请联系项目维护者。
+如有问题或建议，请不要联系项目维护者。
 
 ---
-*最后更新: 2026年3月10日*
+*最后更新: 2026年3月13日*
 *版本: 1.0*
